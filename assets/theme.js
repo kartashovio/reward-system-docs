@@ -1,6 +1,6 @@
 function toggleDarkMode() {
     let themeCss = document.querySelector(".theme-css");
-
+    console.log(themeCss)
     if (themeCss !== null) {
         if (!window.isDocsifyDarkMode) {
             window.isDocsifyDarkMode = true;
