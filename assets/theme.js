@@ -1,4 +1,4 @@
-function DarkMode() {
+function DarkMode(){
     let themeCss = document.querySelector(".theme-css");
     if (themeCss !== null) {
         if (!window.isDocsifyDarkMode) {
