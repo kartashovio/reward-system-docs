@@ -1,1 +1,1 @@
-* <button class="navbar-button" onclick="toggleDarkMode()"> ☀️ ⇄ 🌙 </button>
+* <button class="navbar-button" onclick="themeToggle()"> ☀️ ⇄ 🌙 </button>
