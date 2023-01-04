@@ -1,6 +1,6 @@
 function themeToggle(){
     let themeCss = document.querySelector(".theme");
-    if(themeCss){
+    if(themeCss !== null){
         if(!window.isDocsifyDarkMode) {
             window.isDocsifyDarkMode = true;
             themeCss.setAttribute("href", "https://unpkg.com/docsify/lib/themes/dark.css");
