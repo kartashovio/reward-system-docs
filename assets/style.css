@@ -1,0 +1,8 @@
+.navbar-button {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
