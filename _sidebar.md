@@ -1,10 +1,10 @@
-- [🌟 Главная](/README.md)
+- [🌟 Главная](/docs/README.md)
 
-- [🦊 Использование](/Usage.md)
+- [🦊 Использование](/docs/Usage.md)
 
-- [❓ Часто Задаваемые Вопросы](/FAQ.md)
+- [❓ Часто Задаваемые Вопросы](/docs/FAQ.md)
 
 - 🏅 Работа с Системой Поощрений
-    - [🗿 Для Новичков (Прочитайте)](/LLSEPluginDevelopment/)
+    - [🗿 Для Новичков (Прочитайте)](/docs/Rewards.md)
 
-- [💦 Ченджлог](https://github.com/LiteLDev/LiteLoaderBDS/releases)
+- [💦 Ченджлог](/docs/Changelog.md)
