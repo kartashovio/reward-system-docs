@@ -1,5 +1,6 @@
-function DarkMode(){
+function toggleDarkMode() {
     let themeCss = document.querySelector(".theme-css");
+
     if (themeCss !== null) {
         if (!window.isDocsifyDarkMode) {
             window.isDocsifyDarkMode = true;
@@ -13,11 +14,14 @@ function DarkMode(){
         }
     }
 }
-function updateCustomCSS(){
-    let bar = document.querySelectorAll('.markdown-section tr:nth-child(2n)');
-    if (bar !== null) {
-        for (var i = 0; i < bar.length; ++i)
-        bar[i].style.backgroundColor = window.isDocsifyDarkMode ? "#363636" : "#f8f8f8";
+
+function updateCustomCSS() {
+    let tableBars = document.querySelectorAll('.markdown-section tr:nth-child(2n)');
+
+    // fix table bar color
+    if (tableBars !== null) {
+        for (var i = 0; i < tableBars.length; ++i)
+            tableBars[i].style.backgroundColor = window.isDocsifyDarkMode ? "#363636" : "#f8f8f8";
     }
 }
 window.updateCustomCSS = updateCustomCSS;
