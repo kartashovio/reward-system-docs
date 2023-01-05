@@ -1,12 +1,12 @@
 - [🌟 Главная](README.md)
 
-- [❓ Часто Задаваемые Вопросы](FAQ.md)
+- [❓ Часто Задаваемые Вопросы](/docs/FAQ.md)
 
-- 🏅 Работа с Системой Поощрений
-    - [🗿 Какой Способ Выбрать](RewardMethods.md)
-    - [👾 RCON](RCON-Method.md)
-    - [🧵 База Данных](DB-Method.md)
-    - [🏎️ NodeJS модуль](NodeJS-Module-Method.md)
-    - [🦊 Описание Работы](Protocol.md)
+- 🏅 Система Поощрений
+    - [🗿 Какой Способ Выбрать](/docs/RewardSystem/RewardMethods.md)
+    - [👾 RCON](/docs/RewardSystem/RCON-Method.md)
+    - [🧵 База Данных](/docs/RewardSystem/DB-Method.md)
+    - [🏎️ NodeJS модуль](/docs/RewardSystem/NodeJS-Module-Method.md)
+    - [🦊 Описание Работы](/docs/RewardSystem/Protocol.md)
 
-- [💦 Ченджлог](Changelog.md)
+- [💦 Ченджлог](/docs/Changelog.md)
