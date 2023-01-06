@@ -27,7 +27,7 @@
 
 Установка -
 * Для использования вам нужно установить вербсервер, например [**Nginx**](https://www.nginx.com/) и **php-fpm**.
-> Пример для ОС ubuntu 20.04:
+* Пример для ОС ubuntu 20.04:
 ```sh
 sudo apt update
 sudo apt install nginx
