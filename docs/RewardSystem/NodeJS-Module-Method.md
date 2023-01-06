@@ -32,7 +32,7 @@
 Стандартное использование -
 * Для использования вам нужно установить [**NodeJS**](https://nodejs.org/ru/) версии 16 и выше.
 
-* Скачайте и распакуйте архив с библиотекой - [**ТЫК**](https://mineserv.top), либо используйте `git clone https://github.com/AlphaBaqpla/MineServ-rewards-NodeJS.git`.
+* Скачайте и распакуйте архив с библиотекой - [**ТЫК**](https://github.com/AlphaBaqpla/MineServ-rewards-NodeJS/releases/), либо используйте `git clone https://github.com/AlphaBaqpla/MineServ-rewards-NodeJS.git`.
 
 * Перейдите в дирректорию библиотеки и выполните команду `npm install`.
 
@@ -40,10 +40,12 @@
 
 Использование в качестве плагина для **LiteLoaderBDS** -
 
-* Скачайте библиотеку на странице релизов в расширении `.llplugin` - [**ТЫК**](https://mineserv.top).
+* Скачайте библиотеку на странице релизов в расширении `.llplugin` - [**ТЫК**](https://github.com/AlphaBaqpla/MineServ-rewards-NodeJS/releases/).
 
 * Поместите `NodeJS-rewards.llplugin` в папку `plugins` вашего сервера и перезагрузите его.
 
 * Перейдите в `plugins/nodejs/NodeJS-rewards/` и настройте вебсервер в `config.json`.
 
 ## ⚙️ Примеры Конфигураций
+
+>todo
