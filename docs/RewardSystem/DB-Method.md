@@ -64,12 +64,6 @@ sudo systemctl restart nginx
 Всё, веб сервер с поддержкой PHP установлен. Далее нужно открть порт, если используете **UFW**, то это можно сделать с помощью команды `sudo ufw allow in 30330/tcp` (тут нужно указать порт как в конфиге Nginx).
 А если используете IPTables, то порт открть можно командой `sudo iptables -t filter -A INPUT -p tcp --dport 30330 -j ACCEPT` (тут нужно указать порт как в конфиге Nginx).
 
-* Скачайте и распакуйте архив с библиотекой - [**ТЫК**](https://github.com/AlphaBaqpla/MineServ-rewards-NodeJS/releases/), либо используйте `git clone https://github.com/AlphaBaqpla/MineServ-rewards-NodeJS.git`.
-
-* Перейдите в дирректорию библиотеки и выполните команду `npm install`.
-
-* Настройте вебсервер и метод работы в `config.json`.
-
 ## ⚙️ Примеры Конфигураций
 
 >todo
