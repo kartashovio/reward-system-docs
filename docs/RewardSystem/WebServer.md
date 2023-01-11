@@ -1,4 +1,4 @@
-# Пример установки вебсервера nginx для ОС ubuntu 20.04+:
+# Пример установки вебсервера nginx для ОС ubuntu 20.04+
 ```sh
 sudo apt update
 sudo apt install nginx
