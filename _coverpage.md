@@ -6,4 +6,3 @@
 
 [Сайт](https://mineserv.top)
 [Документация](/README.md)
-![](./assets/b1.jpg)
