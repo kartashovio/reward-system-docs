@@ -12,7 +12,7 @@
 - `LiteLoaderBDS LLSE` - Нативная работа с [**LiteLoaderBDS**](https://github.com/LiteLDev/LiteLoaderBDS) в качестве плагина.
 - Может выполнять **Ваш** кастомный код.
 
-Способ с [**Rcon**](/docs/RewardSystem/RCON-Method.md) - для использования требуется **вебсервер** с **php**. Способ работает с -
+Способ с [**Rcon**](/docs/RewardSystem/RCON-Method.md) - для использования требуется [**вебсервер**](/docs/RewardSystem/WebServer.md) с **php**. Способ работает с -
 - `Rcon` - Отправка команд на сервер по протоколу **Rcon**.
 
 Способ с [**MySql**](/docs/RewardSystem/RCON-Method.md) - для использования требуется **вебсервер** с **php**. Способ работает с -
