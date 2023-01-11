@@ -7,6 +7,7 @@
     - [🏎️ Способ с NodeJS](/docs/RewardSystem/NodeJS-Module-Method.md)
     - [👾 Способ с RCON](/docs/RewardSystem/RCON-Method.md)
     - [🧵 Способ с MySql](/docs/RewardSystem/DB-Method.md)
+    - [✨ Установка ВебСервера](/docs/RewardSystem/WebServer.md)
     - [🦊 Описание Работы](/docs/RewardSystem/Protocol.md)
 
 - [💦 Ченджлог](/docs/Changelog.md)
