@@ -58,7 +58,9 @@ define ('DB_DATABASE', 	'base');//Имя базы данных
 //Пример выдачи предмета с айди 1, с помощью плагина REDEEM
 define (SQL_QUERY, "INSERT INTO `redeem` (`player`, `item`) VALUES('{username}', 1)");
 ```
+
 * Для плагина IConomy
+
 ```php
 // Конфигурация Скрипта
 define ('SECRET_KEY',	'qMrteQpQWfUVBrs');//Секретный ключ проекта (его можно посмотреть в редактировании вашего проекта)
