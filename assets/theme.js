@@ -3,12 +3,12 @@ function themeToggle(){
     if(themeCss !== null){
         if(!window.isDocsifyLightMode) {
             window.isDocsifyLightMode = true;
-            themeCss.setAttribute("href", "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css");
+            themeCss.setAttribute("href", "https://unpkg.com/docsify/lib/themes/vue.css");
             updateCustomCSS();
         }
         else{
             window.isDocsifyLightMode = false;
-            themeCss.setAttribute("href", "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css");
+            themeCss.setAttribute("href", "https://unpkg.com/docsify/lib/themes/dark.css");
             updateCustomCSS();
         }
     }
