@@ -15,7 +15,7 @@ sudo systemctl status nginx
 sudo nano /etc/nginx/sites-available/rewards.conf
 ```
 * Вставляем туда и заменяем значения `listen 30330;` и `root /var/www/html;` на нужные, или оставляем как есть.
-* От переменной `listen число от 1 до 65535;` зависит порт, на котором будет работать ваш вебсервер, при использовании предложенных ниже значений адрес вашего скрипта будет `http://айпи_вебсервера:30330/RCON_Method.php`
+* От переменной `listen число от 1 до 65535;` зависит порт, на котором будет работать ваш вебсервер, при использовании предложенных ниже значений адрес твоего скрипта будет `http://айпи_вебсервера:30330/RCON_Method.php`
 ```conf
 server {
     listen 30330;
@@ -33,5 +33,5 @@ ln /etc/nginx/sites-available/rewards.conf /etc/nginx/sites-enabled/rewards.conf
 sudo systemctl restart php8.1-fpm
 sudo systemctl restart nginx
 ```
-* Всё, веб сервер с поддержкой PHP установлен. Далее нужно открть порт, если используете **UFW**, то это можно сделать с помощью команды `sudo ufw allow in порт/tcp` (тут нужно указать порт как в конфиге Nginx).
-* А если используете IPTables, то порт открть можно командой `sudo iptables -t filter -A INPUT -p tcp --dport порт -j ACCEPT` (тут нужно указать порт как в конфиге Nginx).
+* Всё, веб сервер с поддержкой PHP установлен. Далее нужно открть порт, если используешь **UFW**, то это можно сделать с помощью команды `sudo ufw allow in порт/tcp` (тут нужно указать порт как в конфиге Nginx).
+* А если используешь IPTables, то порт открть можно командой `sudo iptables -t filter -A INPUT -p tcp --dport порт -j ACCEPT` (тут нужно указать порт как в конфиге Nginx).
