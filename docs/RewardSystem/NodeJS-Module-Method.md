@@ -197,7 +197,9 @@
         "IP": "",
         "Port": ,
         "Password": "",
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "MySQL": {
         "IP": "",
@@ -207,7 +209,9 @@
         "SQL_Query": ""
     },
     "LiteLoader": {
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "Custom": {//тут ничего нет, но вы можете добавлять сюда свои переменные и использовать с помощью "conf.Custom.ваша_переменная"
     }
@@ -223,7 +227,7 @@
 ```js
 //===============CUSTOM METHOD================
 module.exports = {
-    name: 'rcon',
+    name: 'custom',
     async execute(proj,user,time,sign){
         console.log('['+time+'] Айди проекта: '+proj+' Ник Игрока: '+user+' Время: '+time+' Сигнатура: '+sign)
     }
