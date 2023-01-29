@@ -51,7 +51,9 @@
         "IP": "123.123.123.123",//IP адрес RCON
         "Port": 25575,//Порт RCON
         "Password": "password",//Пароль RCON
-        "Command": "eco give $user 15"//Данной командой мы выдаём игроку 15 монет EssentialsX. Вы можете использовать любую команду, просто замените ник игрока на $user
+        "Command1": "eco give $user 15",//Данной командой мы выдаём игроку 15 монет EssentialsX. Вы можете использовать любую команду, просто замените ник игрока на $user
+        "Command2":"null",//Вторая команда. Если в поле команды стоит null, то она не будет выполнена.
+        "Command3":"null"//Третья команда. Если в поле команды стоит null, то она не будет выполнена.
     },
     "MySQL": {
         "IP": "",
@@ -61,7 +63,9 @@
         "SQL_Query": ""
     },
     "LiteLoader": {
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "Custom": {
     }
@@ -82,7 +86,9 @@
         "IP": "",
         "Port": ,
         "Password": "",
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "MySQL": {
         "IP": "123.123.123.123",//IP адрес базы данных
@@ -92,7 +98,9 @@
         "SQL_Query": "INSERT INTO `redeem` (`player`, `item`) VALUES('$user', 1)"//Пример выдачи предмета с айди 1, с помощью плагина REDEEM
     },
     "LiteLoader": {
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "Custom": {
     }
@@ -109,7 +117,9 @@
         "IP": "",
         "Port": ,
         "Password": "",
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "MySQL": {
         "IP": "123.123.123.123",//IP адрес базы данных
@@ -119,7 +129,9 @@
         "SQL_Query": "UPDATE `iconomy` SET `balance`=`balance`+100 WHERE `username`='$user'"//Пример выдачи 100 монет с помощью плагина iConomy
     },
     "LiteLoader": {
-        "Command": ""
+        "Command1": "null",
+        "Command2": "null",
+        "Command3": "null"
     },
     "Custom": {
     }
@@ -155,7 +167,9 @@
         "SQL_Query": ""
     },
     "LiteLoader": {
-        "Command": "give $user diamond 10"//даём игроку, который проголосовал 10 алмазов. Вы можете использовать любую команду, просто замените ник игрока на $user
+        "Command1": "give $user diamond 10",//даём игроку, который проголосовал 10 алмазов. Вы можете использовать любую команду, просто замените ник игрока на $user
+        "Command2": "null",//Вторая команда. Если в поле команды стоит null, то она не будет выполнена.
+        "Command3": "null"//Третья команда. Если в поле команды стоит null, то она не будет выполнена.
     },
     "Custom": {
     }
